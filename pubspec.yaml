@@ -1,0 +1,46 @@
+name: bloc_market_app
+description: Simple shop simulator app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/img.png
+    - assets/images/img_1.png
+
+  fonts:
+    - family: Cousine
+      fonts:
+        - asset: assets/fonts/CousineRegular.ttf
+
+    - family: Neutral Face
+      fonts:
+        - asset: assets/fonts/NeutralFace.otf
+
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+
+
