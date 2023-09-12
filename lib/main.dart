@@ -1,3 +1,4 @@
+import 'package:bloc_market_app/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'features/home/ui/home_screen.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.teal,
+        primaryColor: AppColors.darkNeon,
       ),
       debugShowCheckedModeBanner: false,
       home: const Home(),
